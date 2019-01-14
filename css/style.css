@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation*/
+
+.navbar {
+    opacity: .8;
+    border-bottom: 5px solid #0274AE;
+}
+
+
+/*Header*/
+.header {
+    background-image: url('../images/looplab/home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2,2,2,.7);
+}
+
+.header_inner {
+    padding-top: 150px;
+}
+
+.header_inner .fas,
+.Section-Create .fas {
+    color: #0274AE;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px; 
+}
+
+.right-side .card {
+    opacity: .8;
+    border-color: #0274AE;
+}
+
+/*Section-Explore-Header */
+
+.Section-Explore-Header {
+    background-color: #333;
+}
+
+
+/*Section Explore*/
+
+.Section-Explore {
+    background-color: #F8F9FA;
+}
+
+.Section-Explore .fas,
+.Section-Share .fas {
+    background-color: #333;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px; 
+}
+
+
+/*Section Create*/
+
+.Section-Create {
+    background-color: #333;
+}
+
+
+/*Section Share*/
+
+.Section-Share {
+    background-color: #F8F9FA;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #333;
+}
